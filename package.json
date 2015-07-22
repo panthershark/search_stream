@@ -1,0 +1,33 @@
+{
+  "name": "search_stream",
+  "version": "1.0.0",
+  "description": "Streaming search for elastic search",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -u tdd test/tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommymessbauer/search_stream.git"
+  },
+  "keywords": [
+    "elastic",
+    "search",
+    "search",
+    "streams"
+  ],
+  "author": "Tommy Messbauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tommymessbauer/search_stream/issues"
+  },
+  "homepage": "https://github.com/tommymessbauer/search_stream#readme",
+  "dependencies": {
+    "elastic_filter": "^0.1.0",
+    "generate_filter": "0.0.2"
+  },
+  "devDependencies": {
+    "async": "^1.4.0",
+    "elasticsearch": "^5.0.0"
+  }
+}
